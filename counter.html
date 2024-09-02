@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script src="counter.js" defer></script> 
+    <link rel="stylesheet" href="counter.css">
+</head>
+<body>
+    <div class="bg-container text-center d-flex flex-column justify-content-center">
+        <center>
+        <h1 class="counter-heading">Counter</h1>
+        <p id="counterValue" class="counter-value">0</p>
+        <div>
+            <button onClick="onDecrement()" class="button">DECREASE</button>
+            <button onClick="onReset()" class="button">RESET</button>
+            <button onClick="onIncrement()" class="button">INCREASE</button>
+        </div>
+    </center>
+    </div>
+</body>
+</html>
